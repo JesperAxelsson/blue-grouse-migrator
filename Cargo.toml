@@ -1,0 +1,18 @@
+[package]
+name = "bgm"
+version = "0.1.0"
+authors = ["Jesper Axelsson <jesperaxe@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+dotenv = "0.15"
+
+tokio = { version = "0.2", features = ["macros"] }
+sqlx = { version = "0.2", default-features = false, features = [ "runtime-tokio", "macros", "postgres" ] }
+futures="*"
+
+structopt = "0.3"
+chrono = "0.4"
+
+[badges]
+maintenance = { status = "passively-maintained" }
