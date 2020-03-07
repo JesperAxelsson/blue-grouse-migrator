@@ -16,7 +16,7 @@ dotenv = "0.15"
 
 tokio = { version = "0.2", features = ["macros"] }
 sqlx = { version = "0.2", default-features = false, features = [ "runtime-tokio", "macros", "postgres" ] }
-futures="*"
+futures="0.3"
 
 structopt = "0.3"
 chrono = "0.4"
